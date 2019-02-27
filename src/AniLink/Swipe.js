@@ -30,9 +30,9 @@ const swipeBottomDirection = (direction, reverse) => {
     case "up":
       return { y: `${polarityPos}40vh`, ease: Power1.easeIn };
     case "left":
-      return { x: `${polarityPos}40%`, ease: Power1.easeIn };
+      return { x: `${polarityPos}100%`, ease: Power1.easeIn };
     default:
-      return { x: `${polarityNeg}40%`, ease: Power1.easeIn };
+      return { x: `${polarityNeg}100%`, ease: Power1.easeIn };
   }
 };
 

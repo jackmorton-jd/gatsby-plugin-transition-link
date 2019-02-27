@@ -16,7 +16,7 @@
     "css",
     "react animation"
   ],
-  "main": "lib/index.js",
+  "main": "index.js",
   "author": "Tyler Barnes <tyler@known.design>",
   "license": "MIT",
   "scripts": {
